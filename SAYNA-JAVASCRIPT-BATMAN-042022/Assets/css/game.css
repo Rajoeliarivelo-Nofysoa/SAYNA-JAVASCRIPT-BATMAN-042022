@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header2{
+
+    background-image: url("../Illustrations/Game/Batgame1.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#border2{
+    
+    padding-bottom: 15%;
+}
+
+.box2{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.quizz{
+    margin-left: 15%;
+}
+.form-check {
+    border: 1px solid gray;
+    background-color: gray;
+    width: 400px;
+    padding: 1% 5% 1% 4%;
+    margin-bottom: 1%;
+}
+#confirm {
+    color: #ffff;
+    background-image: linear-gradient(to right top, #eddebf, #d3af82, #bb7f4e, #a34c25, #890008);
+    border: transparent;
+}

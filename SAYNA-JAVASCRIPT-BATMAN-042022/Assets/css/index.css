@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --c-black:#000000;
+    --c-grey: #C4C4C4;
+    --p-jaune: #ffff00;
+    --p-pousin: #f8f184;
+    --p-bleu: #19587d;
+    --p-grena: #b11313;
+    --p-sombre: #0d0e09;
+    --p-variation1:background-image: linear-gradient(to right top, #eddebf, #adc09f, #6aa191, #2c7e8b, #19587d);
+    --p-variation2:background-image: linear-gradient(to right top, #eddebf, #d3af83, #bb7f4f, #a34c26, #89000b);
+    --p-blanc:#ffffff;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#header-top nav{
+    padding: 20px 0;
+}
+
+#header{
+
+        background-image: url("../Illustrations/Home/Bathome1.png");
+        height: 550px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+}
+header{
+    margin: left 0%;
+    
+}
+
+#header-top nav .navigbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#header-top nav .menu ul{
+    display: flex;
+    left: 70%;
+    align-items: center;
+}
+
+
+#header-top nav .menu ul li{
+    font-size: 20px;
+}
+
+#header-top nav .menu ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+#border{
+ padding-bottom: 11%;
+}
+.box{
+    text-align: center;
+    margin-top: 10%;
+}
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.18);
+    
+}
+.logo{
+    margin-left: 93%;
+    margin-top: -15%;
+}
+.logos{
+    margin-left: 15%;
+}
+#noir{
+    background-image: none;
+    background-color: var(--c-black);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:cover;
+}
+
+#noir2{
+    background-image: none;
+    background-color: var(--c-black);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:cover;
+}
+#noir2{
+    background-image: none;
+    background-color: var(--c-black);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:cover;
+    
+}
+
+#bg{
+
+    background-image: url("../Illustrations/Home/Batslider1.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#grey{
+    background-image: none;
+    background-color: #000000a4;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:cover;
+}
+.contact input{
+    width: 850px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #C4C4C4;
+}
+.input1{
+    background-color: #000000a4;
+}
+.grey2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.btnc{
+    background-color: #c4c4c43b;
+}
+#action{
+    padding-right:2%;
+    background-color:#c4c4c43b;
+    margin-right:25% ;
+    border-radius: 0px 15px 15px 0px;
+}
+p{
+    color: white;
+}
+
+#bathome8{
+    padding-left: 20%;
+}
+.guillemets{
+    margin-left: 75%;
+    margin-top: -3%;
+}
+.guillemets2{
+    margin-left: 15%;
+}
+
+footer{
+    background-image: none;
+    background-color: var(--c-black);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:cover;
+}
+
+#footer{
+    margin-top: -6%;
+}
